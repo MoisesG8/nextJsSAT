@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.consulta-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: linear-gradient(to right, #00ffff, #d60909);
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10.5rem;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 1.5rem;
+}
